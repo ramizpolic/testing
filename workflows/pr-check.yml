@@ -1,0 +1,15 @@
+name: pr-check
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+
+jobs:
+  check:
+    uses: ./.github/workflows/_pr_check.yml
+    permissions:
+      pull-requests: write
