@@ -57,6 +57,10 @@
   color: 'c7def7'
   description: 'Categorizes issue or PR as related to a new feature.'
 
+- name: 'kind/enhancement'
+  color: 'c7def7'
+  description: 'Categorizes issue or PR as related to a new feature.'
+
 - name: 'kind/cleanup'
   color: 'c7def7'
   description: 'Categorizes issue or PR as related to cleaning up code, process, or technical debt.'
@@ -92,5 +96,9 @@
   color: '0052cc'
 - name: 'area/provider/aws'
   color: '0052cc'
+- name: 'area/provider/azure'
+  color: '0052cc'
 - name: 'area/provider/alibaba'
+  color: '0052cc'
+- name: 'area/provider/vault'
   color: '0052cc'
