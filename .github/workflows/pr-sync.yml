@@ -1,0 +1,10 @@
+name: pr-sync
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    uses: ./.github/workflows/_pr_sync.yml
+    permissions:
+      pull-requests: write
