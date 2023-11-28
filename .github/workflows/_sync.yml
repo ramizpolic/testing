@@ -4,8 +4,8 @@ on:
   workflow_call:
 
 jobs:
-  label-sync:
-    name: Sync project labels
+  sync:
+    name: Project labels
     runs-on: ubuntu-latest
     steps:
       - uses: EndBug/label-sync@v2
@@ -14,7 +14,6 @@ jobs:
           # as multiple:
           config-file: |
             https://raw.githubusercontent.com/EndBug/labels/main/labels.yml
-            .github/labels.yml
 
           # If you want to delete any additional label, set this to true
           delete-other-labels: false
