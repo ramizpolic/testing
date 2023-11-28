@@ -14,11 +14,11 @@ on:
       stale-label:
         type: string
         required: false
-        default: "stale"
+        default: "lifecycle/stale"
       exempt-label:
         type: string
         required: false
-        default: "keep"
+        default: "lifecycle/keep"
 
 jobs:
   stale:
