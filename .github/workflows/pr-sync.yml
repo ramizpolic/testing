@@ -10,7 +10,7 @@ on:
 
 jobs:
   sync:
-    uses: ./.github/workflows/_pr-sync.yml
+    uses: bank-vaults/.github/.github/workflows/_pr-sync.yml@main
     permissions:
       pull-requests: write
       issues: write
