@@ -7,7 +7,7 @@ on:
 
 jobs:
   sync:
-    uses: ./.github/workflows/_project-sync.yml
+    uses: bank-vaults/.github/.github/workflows/_project-sync.yml@yml
     permissions:
       issues: write
       pull-requests: write
